@@ -60,10 +60,10 @@ OTF="YES"         # OTF font support. Also a secondary dependency
 CAIRO=            # Highly experimental. Maintaner dissapeared.
 XWIDGETS=         # Use GTK+ widgets pulled from webkit2gtk. Usable.
 DOCS_HTML=        # Generate and install html documentation.
-DOCS_PDF=         # Generate and install pdf documentation.
+DOCS_PDF="YES"    # Generate and install pdf documentation.
 MAGICK=           # Imagemagick 6 libraries support. Imagemagick,
                   # like flash, is bug ridden and won't die; yet useful.
-NOGZ=             # Don't compress el files.
+NOGZ="YES"        # Don't compress el files.
 #######################################################################
 
 #######################################################################
