@@ -57,7 +57,7 @@ M17N=             # Enable m17n international table input support.
                   # if you need it.
 OTF="YES"         # OTF font support. Also a secondary dependency
                   # by pulling m17n-lib. Not needed in that case.
-CAIRO="YES"       # Highly experimental. Maintaner dissapeared.
+CAIRO=            # Highly experimental. Maintaner dissapeared.
 XWIDGETS="YES"    # Use GTK+ widgets pulled from webkit2gtk. Usable.
 DOCS_HTML=        # Generate and install html documentation.
 DOCS_PDF="YES"    # Generate and install pdf documentation.
@@ -72,7 +72,7 @@ if [[ $BRANCH = "emacs-26" ]]; then
 else
   pkgname=emacs-git
 fi
-pkgver=27.0.50.136940
+pkgver=27.0.50.137058
 pkgrel=1
 pkgdesc="GNU Emacs. Development."
 arch=('x86_64') # Arch Linux only. Users of derivatives are on their own.
